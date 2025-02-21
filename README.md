@@ -1,4 +1,4 @@
-# wovka's Home Assistant add-on repository
+# mattreim's Home Assistant add-on repository
 
 ## Add-ons
 
