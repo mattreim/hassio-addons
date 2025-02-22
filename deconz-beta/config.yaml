@@ -35,12 +35,12 @@ ports_description:
 privileged:
   - SYS_RAWIO
 schema:
+  device: device(subsystem=tty)
   dbg_aps: int?
   dbg_info: int?
   dbg_otau: int?
   dbg_zcl: int?
   dbg_zdp: int?
-  device: device(subsystem=tty)
 startup: services
 udev: true
 usb: true
