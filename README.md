@@ -1,4 +1,4 @@
-# mattreim's Home Assistant add-on repository
+# Mattreim's Home Assistant Add-on repository
 
 ## Add-ons
 

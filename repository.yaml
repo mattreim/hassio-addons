@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Mattreim's Home Assistant add-on repository
+name: Mattreim's Home Assistant Add-on repository
 url: 'https://github.com/mattreim/hassio-addons'
 maintainer: Mattreim <mail+github@mattreim.de>

@@ -11,10 +11,10 @@ RUN \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
         curl \
+        openbox \
         iproute2 \
         iputils-ping \
         kmod \
-        libatomic1 \
         libcap2-bin \
         libqt5core5a \
         libqt5gui5 \
@@ -24,8 +24,6 @@ RUN \
         libqt5websockets5 \
         libqt5widgets5 \
         libqt5qml5 \
-        qtdeclarative5-dev \
-        libssl3 \
         lsof \
         netcat-traditional \
         nginx \
@@ -35,8 +33,6 @@ RUN \
         tigervnc-standalone-server \
         udev \
         wget \
-        websockify \
-        openbox \
         xfonts-base \
         xfonts-scalable && \
     apt-get clean && \
@@ -44,7 +40,6 @@ RUN \
 
 # Install deCONZ
 ARG DECONZ_VERSION
-
 RUN \
     set -x \
     && if [ "${BUILD_ARCH}" = "armhf" ]; \
