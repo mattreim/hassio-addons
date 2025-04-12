@@ -1,7 +1,9 @@
+---
 version: v2.29.3-beta
 slug: deconz
 name: deCONZ-beta
-description: Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik
+description: >-
+  Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik.
 url: https://github.com/mattreim/hassio-addons/tree/main/deconz-beta
 apparmor: false
 arch:
@@ -28,10 +30,6 @@ ports:
   40850/tcp: null
   5900/tcp: null
   8081/tcp: null
-ports_description:
-  40850/tcp: deCONZ API backend (Not required for Ingress)
-  5900/tcp: deCONZ via VNC (Not required for Ingress. Not secure!)
-  8081/tcp: deCONZ WebSocket (Not required for Ingress)
 privileged:
   - SYS_RAWIO
 schema:
