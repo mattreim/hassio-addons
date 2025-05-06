@@ -1,9 +1,9 @@
 ---
-version: v2.30.0-beta
+version: v2.30.1-beta
 slug: deconz
 name: deCONZ-beta
 description: >-
-  Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik.
+  Control a Zigbee network with ConBee or RaspBee by Dresden Elektronik
 url: https://github.com/mattreim/hassio-addons/tree/main/deconz-beta
 apparmor: false
 arch:
